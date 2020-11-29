@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    *{
+        margin: 0;
+    }
+
+.header{
+    position: relative;
+    height:300px;
+    background-color:yellow;
+    overflow: hidden;
+
+}
+
+.opacity{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    opacity: 70%;
+    z-index: 100;
+
+
+}
+
+.imgcontainar{
+position: relative;
+}
+.imgCity{
+    position: absolute;
+    top: -500px;
+    
+    right: -2000;
+}
+
+.textContainar{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    line-height: 300px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    z-index: 120;
+}
+</style>
+
+
+<div class="header">
+    <div class="opacity"></div>
+    <div class="imgcontainar">
+        <img class="imgCity" src="imgs/houstonCity.jpg" alt="" width= 100%>
+    </div>
+    <div class="textContainar">
+        Welcome to Cluch City!
+    </div>
+</div>
+    
+</body>
+</html>

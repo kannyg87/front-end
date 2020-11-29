@@ -1,0 +1,12 @@
+.main{
+    width: 65%;
+    border: red 1px solid;
+    position: relative; 
+  }
+  .para2{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;
+    margin-bottom: 10px;
+  }

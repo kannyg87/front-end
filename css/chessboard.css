@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+}
+.containar{
+    background-color: rgb(71, 68, 68);
+    height: 1000px;
+    width: 1100px;
+    display: flex;
+    
+    align-items: flex-start ;
+    flex-wrap: wrap;
+    
+}
+
+p {
+    height: 120px;
+    width: 120px;
+    background-color:black;
+    margin-left 10px;
+    margin-right: 10px;;
+    display: flex;
+    
+   
+
+}
+.itemWhilte{
+    background-color: #fff;
+    color: white;
+}
+
+

@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:black;
+    color: white;
+
+}
+
+li:hover{
+    background-color: rgb(70, 67, 68);
+    display: block;
+}
+
+a{
+    color: white;
+} 
+
+/* to take away the dotes */
+li{
+    list-style: none;
+    padding: 10px;
+}
+
