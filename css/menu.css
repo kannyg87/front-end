@@ -1,29 +1,27 @@
-body{
-    margin: 0px;
-}
 
-nav{
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.menu {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color:black;
-    color: white;
-
+    height: 100vh;
+    width: 100vw;
 }
-
-li:hover{
-    background-color: rgb(70, 67, 68);
-    display: block;
-}
-
-a{
+a {
+    background-color: #222;
     color: white;
-} 
-
-/* to take away the dotes */
-li{
-    list-style: none;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
     padding: 10px;
+    width: 260px;
 }
-
+a:hover {
+    color: #776d6d;
+    background-color: rgba(34, 34, 34, 0.99)
+}
+i {
+    padding-bottom: 2px;
+}

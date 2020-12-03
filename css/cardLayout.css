@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    background-color: gray;
+}
+nav{
+    width: 100vw;
+    height: 100px;
+    background: rgb(66, 22, 22);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font: large;
+    line-height: 100px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.sec {
+    height: 600px;
+    width: 600px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+h1,p {
+    background-color: #fff;
+    padding: 5px;
+}
+@media screen and (max-width: 750px) {
+    .main{
+        background-color:red;
+    }
+    .sec{
+        background-color:red;
+    }
+    
+}
+
