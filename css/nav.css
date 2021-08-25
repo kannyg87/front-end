@@ -26,9 +26,10 @@ li{
     padding: 10px;
 }
 
-img{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
+
+img{
+    width: 100%;
+    background-image: url('imgs/FlexBoxCenterImage.png');
+    background-size: 100% 100%;
+    border: 1px solid red;
 }
