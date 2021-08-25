@@ -13,7 +13,7 @@ nav{
 
 a:hover{
     background-color:beige;
-    paddint: 10 px;
+    padding: 10 px;
 }
 
 ul{
@@ -27,9 +27,14 @@ li{
 }
 
 
-img{
+.parallax {
     width: 100%;
-    background-image: url('imgs/FlexBoxCenterImage.png');
-    background-size: 100% 100%;
+    background-image: url('FlexBoxCenterImage.png');
+    background-size: cover;
     border: 1px solid red;
+    /* for parallax scrolling  */
+    min-height: 500px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
